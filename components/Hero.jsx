@@ -23,7 +23,7 @@ export default function Hero() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4 }}
         >
-          IT Student & Web Developer
+          IT Student & Junior Web Developer
         </motion.h3>
 
         <motion.p

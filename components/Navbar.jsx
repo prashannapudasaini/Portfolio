@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="nav-container">
         <div className="nav-logo" onClick={() => scrollToSection('hero')}>
           <span className="logo-text">Prashanna</span>
-          <span className="logo-sub">Web Developer</span>
+          <span className="logo-sub">Junior Web Developer</span>
         </div>
 
         <div className="nav-menu">

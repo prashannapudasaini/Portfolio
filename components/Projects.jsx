@@ -28,7 +28,7 @@ export default function Projects() {
       id: 3,
       title: "TIC TAC TOE Game",
       description: "Created an interactive TIC TAC TOE game with intuitive user interface and game logic implementation. A fun project to practice programming fundamentals.",
-      technologies: ["JavaScript", "HTML", "CSS", "Game Logic"],
+      technologies: ["C Programming", "C++", "Game Logic"],
       category: "game",
       features: ["Interactive gameplay", "User-friendly interface", "Game logic", "Score tracking"],
       type: "game"
