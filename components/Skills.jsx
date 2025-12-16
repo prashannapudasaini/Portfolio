@@ -90,28 +90,28 @@ export default function Skills() {
             <div className="interest-category">
               <h4>Technical Training</h4>
               <div className="interest-tags">
-                <span className="interest-tag">Web Designing & Developing</span>
-                <span className="interest-tag">Blogging</span>
-                <span className="interest-tag">Python Programming</span>
+                <span className="interest-tag">Web Designing & Developing, </span>
+                <span className="interest-tag">Blogging, </span>
+                <span className="interest-tag">Python Programming, </span>
                 <span className="interest-tag">Java Programming</span>
               </div>
             </div>
             <div className="interest-category">
               <h4>Sports & Physical</h4>
               <div className="interest-tags">
-                <span className="interest-tag">Taekwondo (2nd Dan Black Belt)</span>
-                <span className="interest-tag">Football Training</span>
+                <span className="interest-tag">Taekwondo (2nd Dan Black Belt), </span>
+                <span className="interest-tag">Football Training, </span>
                 <span className="interest-tag">ANFA 6-month Training</span>
               </div>
             </div>
             <div className="interest-category">
               <h4>Personal Interests</h4>
               <div className="interest-tags">
-                <span className="interest-tag">Digital Marketing</span>
-                <span className="interest-tag">Coding</span>
-                <span className="interest-tag">Football</span>
-                <span className="interest-tag">Travel</span>
-                <span className="interest-tag">Photography</span>
+                <span className="interest-tag">Digital Marketing, </span>
+                <span className="interest-tag">Coding, </span>
+                <span className="interest-tag">Football, </span>
+                <span className="interest-tag">Travel, </span>
+                <span className="interest-tag">Photography, </span>
                 <span className="interest-tag">Interacting with New People</span>
               </div>
             </div>
@@ -122,11 +122,11 @@ export default function Skills() {
           <h3>Languages</h3>
           <div className="languages">
             <div className="language-item">
-              <span className="language-name">Nepali</span>
+              <span className="language-name">Nepali-</span>
               <span className="language-level">Native</span>
             </div>
             <div className="language-item">
-              <span className="language-name">English</span>
+              <span className="language-name">English-</span>
               <span className="language-level">Professional</span>
             </div>
           </div>
