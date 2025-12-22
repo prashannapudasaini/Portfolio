@@ -841,9 +841,13 @@ section {
   transition: width 1s ease-out;
 }
 
+/* ===============================
+   TECHNOLOGIES CLOUD (SKILLS PAGE)
+================================ */
+
 .technologies-cloud {
   background: var(--bg-secondary);
-  padding: 3rem;
+  padding: 3rem 2rem;
   border-radius: var(--border-radius-lg);
   margin-bottom: 3rem;
   text-align: center;
@@ -851,8 +855,11 @@ section {
 
 .technologies-cloud h3 {
   margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
+/* Container */
 .tech-tags {
   display: flex;
   flex-wrap: wrap;
@@ -860,27 +867,58 @@ section {
   justify-content: center;
 }
 
+/* Individual Tag */
 .tech-tag {
-  padding: 0.75rem 1.5rem;
+  padding: 0.6rem 1.4rem;
   background: var(--bg-card);
-  border-radius: 50px;
+  border-radius: 999px;
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--text);
   border: 1px solid var(--border);
-  transition: all var(--transition-base);
+  white-space: nowrap;
+  transition: all 0.3s ease;
 }
 
 .tech-tag:hover {
   background: var(--primary);
-  color: white;
+  color: #ffffff;
   transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.25);
 }
 
+/* Highlighted/Main Technology */
 .tech-tag.main {
   background: var(--gradient-primary);
-  color: white;
+  color: #ffffff;
   border: none;
 }
+
+/* ===============================
+   PROJECT CARD TECHNOLOGIES
+================================ */
+
+.project-card .technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.project-card .tech-tag {
+  padding: 0.35rem 0.85rem;
+  font-size: 0.75rem;
+  background: rgba(99, 102, 241, 0.12);
+  color: var(--primary);
+  border: none;
+}
+
+.project-card .tech-tag:hover {
+  background: var(--primary);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
 
 .learning-next {
   background: var(--gradient-dark);
