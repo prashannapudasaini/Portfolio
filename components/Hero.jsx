@@ -77,7 +77,7 @@ export default function Hero() {
       >
 
         <div className="image-placeholder">
-          <img src="/profile.JPG" alt="My Profile" />
+          <img src="/profile.jpeg" alt="My Profile" />
         </div>
       </motion.div>
     </motion.section>
