@@ -65,7 +65,7 @@ export default function Hero() {
         >
           <a href="#projects" className="btn primary">View My Work</a>
           <a href="#contact" className="btn outline">Get In Touch</a>
-          <a href="/Prashanna Pudasaini CV.pdf" download className="btn secondary">Download CV</a>
+          <a href="/prashannapudasainiCV.pdf" target = "_blank" download className="btn secondary">Download CV</a>
         </motion.div>
       </motion.div>
 
@@ -75,9 +75,9 @@ export default function Hero() {
         animate={{ x: 0, opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        {/* This would be your photo if you have one */}
+
         <div className="image-placeholder">
-          <span>PP</span>
+          <img src="MyProfile.jpg" alt="My Profile" />
         </div>
       </motion.div>
     </motion.section>
