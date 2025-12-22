@@ -49,7 +49,7 @@ export default function Navbar() {
 
           <div className="nav-actions">
             <a 
-              href="/Prashanna Pudasaini CV.pdf" 
+              href="/prashannapudasainiCV.pdf" 
               download 
               className="cv-download"
             >
